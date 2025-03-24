@@ -33,7 +33,7 @@ trezorctl device sd-protect refresh 
 
 #### 1. Подключите устройство и вставьте карту microSD в слот для карты памяти
 
-![](https://trezor.io/content/wysiwyg/Images_sorted/PUBLIC_ALL_Security_and_Privacy/Advanced_measures/Encrypt_PIN_MicroSD/Encrypt_PIN-1.png)
+![](/img/trezor/encrypt-pin-1.webp)
 
 > Карту MicroSD следует вставлять контактами к себе, с правой стороны.
 
@@ -47,10 +47,10 @@ trezorctl device sd-protect on
 
 - Следуйте инструкциям на экране:
 
-![](https://trezor.io/content/wysiwyg/Images_sorted/PUBLIC_ALL_Security_and_Privacy/Advanced_measures/Encrypt_PIN_MicroSD/Encrypt2.png)
+![](/img/trezor/encrypt-pin-2.webp)
 
 Поздравляем! Теперь ваше устройство привязано к секрету, хранящемуся на карте microSD. Вам нужно будет вставить карту в устройство, чтобы использовать PIN-код.
 
-![](https://trezor.io/content/wysiwyg/Images_sorted/PUBLIC_ALL_Security_and_Privacy/Advanced_measures/Encrypt_PIN_MicroSD/Encrypt_PIN-3.png)
+![](/img/trezor/encrypt-pin-3.webp)
 
 SD-карта требуется для включения функции, а затем каждый раз, когда вы хотите разблокировать устройство.
