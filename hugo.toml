@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://cemehbl4.github.io/wiki/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'relearn'
@@ -6,3 +6,6 @@ theme = 'relearn'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[markup.goldmark.renderer]
+unsafe = true
