@@ -1,0 +1,19 @@
+.imageWrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imageWrapper img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.caption {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 8px;
+    display: inline-block;
+}

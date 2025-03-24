@@ -2,7 +2,9 @@
 {{- $alt := .Get "alt" | default (.Get 1) -}}
 {{- if $src -}}
 <div class="imageWrapper">
-    <img src="{{ $src | relURL }}"{{ with $alt }}alt="{{ . }}"{{ end }}>
-    {{ .Inner }}
+    <img src="{{ $src | relURL }}"{{ with $alt }} alt="{{ . }}"{{ end }}>
+    {{- if .Inner -}}
+    <div class="caption">{{ .Inner | markdownify }}</div>
+    {{- end -}}
 </div>
 {{- end -}}
