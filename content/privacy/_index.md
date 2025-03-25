@@ -1,6 +1,6 @@
 ---
 title: Приватность
-weight: 3
+weight: 5
 ---
 
 - [Манифест шифропанка](privacy/cypherpunk-manifesto)
