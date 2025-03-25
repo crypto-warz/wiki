@@ -1,6 +1,6 @@
 ---
 title: Tron
-weight: 4
+weight: 5
 ---
 
 - [Как использовать функцию холодного кошелька в TronLink](tron/tronlink-cold-storage)
