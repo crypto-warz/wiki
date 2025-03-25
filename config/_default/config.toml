@@ -1,6 +1,6 @@
 baseURL = 'https://cemehbl4.github.io/wiki/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'CryptoWarz'
 theme = 'relearn'
 
 [caches]
