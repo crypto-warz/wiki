@@ -1,7 +1,9 @@
 ---
-title: Эмулятор ColdCard
+title: Эмулятор ColdCard MK4
 weight: 1
 ---
+
+{{% image src="img/coldcard/coldcard-emu.webp" /%}}
 
 ## Подготовка
 

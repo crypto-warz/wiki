@@ -3,6 +3,8 @@ title: Эмулятор Keystone 3
 weight: 1
 ---
 
+{{% image src="img/keystone/keystone3-emu.webp" /%}}
+
 ## Подготовка
 
 - Виртуальная машина VirtualBox с установленным дистрибутивом Ubuntu 22.04 Desktop
