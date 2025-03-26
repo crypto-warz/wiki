@@ -26,7 +26,9 @@ weight: 1
 
 ```bash
 trezorctl device sd-protect on
+
 trezorctl device sd-protect off
+
 trezorctl device sd-protect refresh 
 ```
 
