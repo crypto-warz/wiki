@@ -15,7 +15,7 @@ weight: 1
 ## Зависимости
 
 ```bash
-sudo apt install build-essential git python3 python3-pip gcc python-is-python3 python3-venv libsdl2-dev libsdl2-2.0-0 curl
+sudo apt install build-essential git python3 python3-pip gcc python-is-python3 python3-venv libsdl2-dev libsdl2-2.0-0 curl cmake
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
