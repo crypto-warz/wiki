@@ -1,6 +1,6 @@
 ---
 title: Захват Биткоина
-weight: 4
+weight: 5
 ---
 
 - [Идеалисты против предпринимателей](hijacking-bitcoin/idealists-vs-entrepreneurs)

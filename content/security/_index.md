@@ -1,6 +1,6 @@
 ---
 title: Безопасность
-weight: 6
+weight: 7
 ---
 
 - [Насколько надежна ваша кодовая фраза](security/passphrase)

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin
-weight: 7
+weight: 8
 ---
 
 - [Кошелек с несколькими подписями с помощью Sparrow Wallet](bitcoin/multisig-2-3)
