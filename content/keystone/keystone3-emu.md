@@ -1,6 +1,7 @@
 ---
-title: Эмулятор Keystone 3
+title: Эмулятор Keystone 3 Pro
 weight: 1
+date: 2025-03-25
 ---
 
 {{% image src="img/keystone/keystone3-emu.webp" /%}}

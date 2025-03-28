@@ -1,6 +1,7 @@
 ---
 title: Как использовать функцию холодного кошелька в TronLink
 weight: 1
+date: 2025-03-25
 ---
 
 > [Оригинал статьи на английском](https://support.tronlink.org/hc/en-us/articles/5289083830041-How-to-use-the-cold-wallet-function-in-TronLink)

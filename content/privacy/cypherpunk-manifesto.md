@@ -1,6 +1,7 @@
 ---
 title: Манифест шифропанка
 weight: 1
+date: 1993-03-09
 ---
 
 > [Оригинал статьи на английском](https://www.activism.net/cypherpunk/manifesto.html)

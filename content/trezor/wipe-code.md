@@ -1,6 +1,7 @@
 ---
 title: Создание кода стирания для удаления данных с устройства
 weight: 2
+date: 2025-03-25
 ---
 
 > [Оригинал статьи на английском](https://trezor.io/learn/a/create-wipe-code-to-erase-device)

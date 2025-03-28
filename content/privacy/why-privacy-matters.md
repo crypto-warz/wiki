@@ -1,6 +1,7 @@
 ---
 title: Почему важна приватность
 weight: 2
+date: 2014-10-10
 ---
 
 > [Оригинал лекции на английском](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters/)

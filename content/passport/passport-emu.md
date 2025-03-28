@@ -1,6 +1,7 @@
 ---
 title: Эмулятор Passport Core
 weight: 1
+date: 2025-03-28
 ---
 
 {{% image src="img/passport/passport-emu.webp" /%}}

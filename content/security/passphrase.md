@@ -1,6 +1,7 @@
 ---
 title: Насколько надежна ваша кодовая фраза
 weight: 1
+date: 2019-07-12
 ---
 
 > [Оригинал статьи на английском](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af)

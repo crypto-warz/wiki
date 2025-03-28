@@ -1,6 +1,7 @@
 ---
 title: Шифрование PIN-кода с помощью карты microSD
 weight: 1
+date: 2025-03-24
 ---
 
 > [Оригинал статьи на английском](https://trezor.io/learn/a/encrypt-pin-with-microsd-card)

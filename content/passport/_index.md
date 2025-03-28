@@ -3,4 +3,4 @@ title: Passport
 weight: 4
 ---
 
-- [Эмулятор Passport](passport/passport-emu)
+- [Эмулятор Passport Core](passport/passport-emu)

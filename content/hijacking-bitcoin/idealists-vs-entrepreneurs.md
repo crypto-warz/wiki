@@ -1,6 +1,7 @@
 ---
 title: Идеалисты против предпринимателей
 weight: 1
+date: 2025-01-02
 ---
 
 > [Оригинал статьи на английском](https://blog.bitmex.com/amir-taaki-idealists-vs-entrepreneurs/)

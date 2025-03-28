@@ -1,6 +1,7 @@
 ---
 title: Эмулятор ColdCard MK4
 weight: 1
+date: 2025-03-25
 ---
 
 {{% image src="img/coldcard/coldcard-emu.webp" /%}}
