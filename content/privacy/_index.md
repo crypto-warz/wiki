@@ -6,3 +6,4 @@ weight: 6
 - [Манифест шифропанка](privacy/cypherpunk-manifesto)
 - [Почему важна приватность](privacy/why-privacy-matters)
 - [Децентрализованный мессенджер SimpleX](privacy/simplex)
+- [Понимание приватности в сети Биткоин](privacy/utxo-privacy-basics)

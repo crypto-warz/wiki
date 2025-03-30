@@ -1,10 +1,13 @@
 {{- $src := .Get "src" | default (.Get 0) -}}
-{{- $alt := .Get "alt" | default (.Get 1) -}}
-{{- if $src -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" | default (.Inner) -}}
+
+{{ $imgMarkdown := printf "![%s](%s)" $alt ($src | relURL) }}
+{{ $imgHTML := $imgMarkdown | .Page.RenderString }}
+
 <div class="imageWrapper">
-    <img src="{{ $src | relURL }}"{{ with $alt }} alt="{{ . }}"{{ end }}>
-    {{- if .Inner -}}
-    <div class="caption">{{ .Inner | markdownify }}</div>
-    {{- end -}}
+  {{ $imgHTML | safeHTML }}
+  {{ if $caption }}
+  <div class="caption">{{ $caption | markdownify }}</div>
+  {{ end }}
 </div>
-{{- end -}}

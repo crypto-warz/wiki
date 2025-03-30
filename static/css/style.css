@@ -11,11 +11,12 @@
 }
 
 .caption {
-    font-size: 14px;
+    font-size: 0.9em;
     color: #666;
     text-align: center;
     margin-top: 8px;
     display: inline-block;
+    font-style: italic;
 }
 
 .youtubeWrapper {
