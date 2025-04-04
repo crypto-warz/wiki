@@ -1,6 +1,6 @@
 ---
-title: Децентрализованный мессенджер SimpleX
-weight: 3
+title: Использование SimpleX
+weight: 4
 date: 2025-03-27
 ---
 
