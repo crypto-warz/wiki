@@ -93,6 +93,8 @@ Finding Seed....Seed (HEX): 2b4c80bd8cfb66b8a4c923cc24962c9e2ebd461d2c6fb79667b7
 
 {{% image src="img/bitcoin/multibithd-1.webp" /%}}
 
+> Также вы можете использовать [утилиту BX](bitcoin/bx-install/#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) для получения xPriv из seed.
+
 ### Восстановление кошелька в Sparrow Wallet
 
 - Создайте новый кошелек в Sparrow Wallet: **File** > **New Wallet** > введите имя кошелька > **Create Wallet**.
