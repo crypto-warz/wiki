@@ -13,7 +13,10 @@ date: 2025-04-07
 ### Подготовка
 
 - Виртуальная машина VirtualBox с установленным дистрибутивом Ubuntu 22.04 Desktop
-- Файл бэкапа MultiBit HD **mbhd.wallet.aes**, который можно найти в директории *~/.MultiBitHD/mbhd-уникальный-идентификатор/*
+- Файл бэкапа MultiBit HD **mbhd.wallet.aes**
+
+> Путь к директории с файлом бэкапа можно найти в меню MultiBit HD: **Управление кошельком** > **Приборная панель кошелька** > Папка приложения/Папка кошелька.
+
 - [Sparrow Wallet](https://sparrowwallet.com/)
 - [bip39-standalone.html](https://github.com/iancoleman/bip39/releases/latest)
 

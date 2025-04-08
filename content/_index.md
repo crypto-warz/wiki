@@ -13,3 +13,4 @@ date: 2025-04-05
 - [Безопасность](security)
 - [Bitcoin](bitcoin)
 - [Tron](tron)
+- [Linux](linux)
