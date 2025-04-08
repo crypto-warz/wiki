@@ -4,4 +4,4 @@ weight: 10
 ---
 
 - [Установка Ubuntu в VirtualBox](linux/virtualbox)
-- [Подключение аппаратных кошельков](linux/udev-rules)
+- [Подключение аппаратных кошельков по USB](linux/udev-rules)
