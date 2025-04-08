@@ -3,4 +3,5 @@ title: Linux
 weight: 10
 ---
 
-- [Как установить Ubuntu на VirtualBox](linux/virtualbox)
+- [Установка Ubuntu в VirtualBox](linux/virtualbox)
+- [Подключение аппаратных кошельков](linux/udev-rules)

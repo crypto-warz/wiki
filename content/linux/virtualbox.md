@@ -1,17 +1,17 @@
 ---
-title: Как установить Ubuntu на VirtualBox
+title: Установка Ubuntu в VirtualBox
 weight: 1
 date: 2025-04-08
 ---
 
 ## Подготовка
 
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-- [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)
-- 30 GB для диска виртуальной машины
-- 4 GB оперативной памяти
-- 4 потока процессора
-- ISO-образ установочного диска [Ubuntu 22.04 Desktop](https://releases.ubuntu.com/jammy/). В данном руководстве использован дистрибутив [Kubuntu 22.04 Desktop](https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+- [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads).
+- 30 GB для диска виртуальной машины.
+- 4 GB оперативной памяти.
+- 4 потока процессора.
+- ISO-образ установочного диска [Ubuntu 22.04 Desktop](https://releases.ubuntu.com/jammy/). В данном руководстве использован дистрибутив [Kubuntu 22.04 Desktop](https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/).
 
 ## Создание виртуальной машины
 
@@ -20,7 +20,7 @@ date: 2025-04-08
 
 {{% image src="img/linux/virtualbox-1.webp" /%}}
 
-- В окне **Оборудование** выделите не меньше 4096 МБ оперативной памяти и 4 потоков процессора для виртуальной машины. Не выделяйте объем памяти и количество потоков больше рекомендованных (зеленая зона). После установки параметров нажмите **Далее**.
+- В окне **Оборудование** выделите не менее 4096 МБ оперативной памяти и 4 потоков процессора для виртуальной машины. Не выделяйте объем памяти и количество потоков больше рекомендованных (зеленая зона). После установки параметров нажмите **Далее**.
 
 {{% image src="img/linux/virtualbox-2.webp" /%}}
 
