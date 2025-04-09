@@ -27,9 +27,7 @@ date: 2025-03-24
 
 ```bash
 trezorctl device sd-protect on
-
 trezorctl device sd-protect off
-
 trezorctl device sd-protect refresh 
 ```
 

@@ -21,9 +21,7 @@ sudo apt install libboost-all-dev build-essential gcc g++ cmake automake autocon
 
 ```bash
 git clone https://github.com/libbitcoin/libbitcoin-explorer -b version3 ~/libbitcoin-explorer
-
 cd ~/libbitcoin-explorer
-
 sudo ./install.sh --with-icu --build-icu --build-zmq
 ```
 

@@ -203,7 +203,6 @@ d8170c342ac049fab953f87841cbbba6c0e3f277703ddc29c678b6ab93dae966  bitcoin-28.0-
 
 ```bash
 apt update
-
 apt install gnupg
 ```
 

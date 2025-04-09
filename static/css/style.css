@@ -42,3 +42,19 @@
 h1 {
     font-size: 30px;
 }
+
+.highlight pre {
+  overflow-x: auto !important;
+  white-space: pre !important;
+  word-wrap: normal !important;
+  overflow-wrap: normal !important;
+  padding: 1em;
+  border-radius: 6px;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.highlight code {
+  white-space: pre !important;
+  line-height: 1.6;
+}

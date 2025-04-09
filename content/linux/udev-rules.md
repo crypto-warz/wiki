@@ -10,9 +10,7 @@ date: 2025-04-08
 
 ```bash
 sudo touch /etc/udev/rules.d/51-trezor.rules
-
 #или
-
 sudo touch /etc/udev/rules.d/20-ledger.rules
 ```
 
@@ -30,15 +28,10 @@ sudo nano /etc/udev/rules.d/51-trezor.rules
 
 ```bash
 sudo usermod -a -G dialout $USER
-
 sudo usermod -a -G plugdev $USER
-
 sudo usermod -a -G uucp $USER
-
 sudo apt install build-essential libudev-dev libusb-1.0-0-dev python3-pip
-
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-
 source ~/.bashrc
 
 # Trezor
@@ -456,6 +449,5 @@ LABEL="fido_end"
 
 ```bash
 sudo udevadm control --reload-rules
-
 sudo udevadm trigger
 ```

@@ -17,13 +17,9 @@ date: 2025-03-25
 
 ```bash
 sudo apt install build-essential git python3 python3-pip gcc python-is-python3 python3-venv libsdl2-dev libsdl2-2.0-0 curl cmake
-
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
 . "$HOME/.cargo/env" #не забудьте точку в начале
-
 rustup install nightly-2024-07-01
-
 cargo install cbindgen
 ```
 
@@ -31,11 +27,8 @@ cargo install cbindgen
 
 ```bash
 git clone https://github.com/KeystoneHQ/keystone3-firmware ~/keystone3-firmware
-
 cd ~/keystone3-firmware
-
 git -c submodule.keystone3-firmware-release.update=none submodule update --init --recursive
-
 pip3 install -r requirements.txt
 ```
 
@@ -53,15 +46,10 @@ pip3 install -r requirements.txt
 
 ```bash
 python3 build.py -o simulator
-
 mv build/simulator simulator
-
 python3 build.py --type btc_only -o simulator
-
 mv build/simulator simulator_btc
-
 python3 build.py --type cypherpunk -o simulator
-
 mv build/simulator simulator_cpunk
 ```
 
@@ -69,10 +57,7 @@ mv build/simulator simulator_cpunk
 
 ```bash
 cd ~/keystone3-firmware
-
 ./simulator #эмулятор прошивки Multi-Coin
-
 ./simulator_btc #эмулятор прошивки BTC-Only
-
 ./simulator_cpunk #эмулятор прошивки Cypherpunk
 ```

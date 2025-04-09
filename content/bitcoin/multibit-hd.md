@@ -24,13 +24,9 @@ date: 2025-04-07
 
 ```bash
 sudo apt install python2 wget git nano
-
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-
 sudo python2 get-pip.py
-
 rm get-pip.py
-
 python2 -m pip install protobuf pylibscrypt bitcoin
 ```
 
@@ -38,9 +34,7 @@ python2 -m pip install protobuf pylibscrypt bitcoin
 
 ```bash
 git clone https://github.com/HardCorePawn/multibit_recovery ~/multibit_recovery
-
 cd ~/multibit_recovery
-
 nano +198 find_unspent_multibitHD_txes.py
 ```
 
@@ -72,7 +66,6 @@ nano +198 find_unspent_multibitHD_txes.py
 
 ```bash
 cd ~/multibit_recovery
-
 python2 find_unspent_multibitHD_txes.py mbhd.wallet.aes
 ```
 

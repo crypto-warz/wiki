@@ -21,7 +21,6 @@ date: 2025-04-08
 
 ```bash
 sudo apt install python3-pip wget
-
 python3 -m pip install trezor
 ```
 
@@ -70,7 +69,6 @@ Features (29 bytes) {
 
 ```bash
 wget https://github.com/trezor/data/raw/refs/heads/master/firmware/t1b1/trezor-t1b1-1.11.1.bin
-
 trezorctl firmware verify trezor-t1b1-1.11.1.bin
 ```
 
@@ -89,7 +87,6 @@ Embedded v2 image fingerprint: 35399198fa0a3204b5db82c84b276435fa13a99a38aac0667
 
 ```bash
 trezorctl firmware update -f trezor-t1b1-1.11.1.bin
-
 # Подтвердите установку прошивки на устройстве
 ```
 
@@ -148,9 +145,7 @@ Features (177 bytes) {
 
 ```bash
 trezorctl device reboot-to-bootloader
-
 # Подтвердите действие на устройстве
-
 trezorctl get-features
 ```
 
@@ -174,8 +169,13 @@ Features (38 bytes) {
 - Хэш-сумма загрузчика (bootloader_hash): 0x**fa12a44fa05fd1d20539358b54f301cee4c3219c9f1bb3a5772ffd609af9e8e2**. Сравним ее с оригинальной в коде прошивки Trezor One по [ссылке](https://github.com/trezor/trezor-firmware/blob/37c13ed75efa051da61fdb2c97811f5d02cd3095/legacy/firmware/bl_check.c).
 
 {{% image src="img/trezor/trezor-one-check-4.webp" %}}
-"\x**fa**\x**12**\x**a4**\x**4f**\x**a0**\x**5f**\x**d1**\x**d2**\x**05**\x**39**\x**35**\x**8b**\x**54**\x**f3**\x**01**\x**ce**"
-"\x**e4**\x**c3**\x**21**\x**9c**\x**9f**\x**1b**\x**b3**\x**a5**\x**77**\x**2f**\x**fd**\x**60**\x**9a**\x**f9**\x**e8**\x**e2**"
+\x**fa**\x**12**\x**a4**\x**4f**\x**a0**\x**5f**\x**d1**\x**d2**
+
+\x**05**\x**39**\x**35**\x**8b**\x**54**\x**f3**\x**01**\x**ce**
+
+\x**e4**\x**c3**\x**21**\x**9c**\x**9f**\x**1b**\x**b3**\x**a5**
+
+\x**77**\x**2f**\x**fd**\x**60**\x**9a**\x**f9**\x**e8**\x**e2**
 {{% /image %}}
 
 - Ревизия прошивки (revision): 0x**85a26d2c9593bcdf858c2d718d79951ca927a0c3**. Сравним хэш ревизии с оригинальным по [ссылке](https://github.com/trezor/data/blob/c5c7d63af17c2bb9154674704c828048bbe303f3/firmware/t1b1/releases.json).
@@ -233,7 +233,6 @@ Features (172 bytes) {
 
 ```bash
 wget https://github.com/trezor/data/raw/c5c7d63af17c2bb9154674704c828048bbe303f3/firmware/t1b1/trezor-t1b1-1.12.1.bin
-
 trezorctl firmware verify trezor-t1b1-1.12.1.bin
 ```
 
@@ -259,7 +258,6 @@ d8538f6498279b4a85db4a25763e138166f36ffcdd079d775bfce673c87d734f
 
 ```bash
 wget https://github.com/trezor/trezor-firmware/blob/11cb171e1ae92a547ea1cdbcf8e13b1ef5bcc115/tools/firmware_hash.py
-
 python3 firmware_hash.py d8538f6498279b4a85db4a25763e138166f36ffcdd079d775bfce673c87d734f trezor-t1b1-1.12.1.bin
 ```
 
@@ -305,9 +303,7 @@ rm trezor-t1b1-1.12.1.bin
 
 ```bash
 trezorctl device reboot-to-bootloader
-
 trezorctl device wipe --bootloader
-
 # Подтвердите действие на устройстве
 ```
 

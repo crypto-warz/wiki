@@ -23,33 +23,19 @@ sudo apt install build-essential git python3 python3-pip libudev-dev gcc-arm-non
 
 ```bash
 git clone --recursive https://github.com/Coldcard/firmware.git ~/coldcard
-
 cd ~/coldcard
-
 git apply unix/linux_addr.patch
-
 python3 -m venv ENV
-
 source ENV/bin/activate
-
 pip install -U pip setuptools
-
 pip install -r requirements.txt
-
 pip install pysdl2-dll
-
 cd unix
-
 pushd ../external/micropython/mpy-cross/
-
 make
-
 popd
-
 make setup
-
 make ngu-setup
-
 make
 ```
 
@@ -57,10 +43,7 @@ make
 
 ```bash
 cd ~/coldcard
-
 source ENV/bin/activate
-
 cd unix
-
 ./simulator.py
 ```
