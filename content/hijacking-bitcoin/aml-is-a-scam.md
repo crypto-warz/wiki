@@ -93,15 +93,15 @@ KYC-процедуры [вредны и неэффективны](https://21idea
 Данный скриншот не является побуждением к действию, а нацелен на демонстрацию абсурдности политик и процедур AML
 {{% /image %}}
 
-{{% expand title="Скриншоты в более высоком разрешении" %}}
-{{% image src="img/hijacking-bitcoin/aml-is-a-scam-4.webp" /%}}
-{{% image src="img/hijacking-bitcoin/aml-is-a-scam-5.webp" /%}}
-{{% image src="img/hijacking-bitcoin/aml-is-a-scam-6.webp" /%}}
-{{% image src="img/hijacking-bitcoin/aml-is-a-scam-7.webp" /%}}
-{{% image src="img/hijacking-bitcoin/aml-is-a-scam-8.webp" /%}}
-{{% image src="img/hijacking-bitcoin/aml-is-a-scam-9.webp" /%}}
-{{% image src="img/hijacking-bitcoin/aml-is-a-scam-10.webp" /%}}
-{{% /expand %}}
+{{< carousel
+    "img/hijacking-bitcoin/aml-is-a-scam-4.webp"
+	"img/hijacking-bitcoin/aml-is-a-scam-5.webp"
+	"img/hijacking-bitcoin/aml-is-a-scam-6.webp"
+	"img/hijacking-bitcoin/aml-is-a-scam-7.webp"
+	"img/hijacking-bitcoin/aml-is-a-scam-8.webp"
+	"img/hijacking-bitcoin/aml-is-a-scam-9.webp"
+	"img/hijacking-bitcoin/aml-is-a-scam-10.webp"
+>}}
 
 Обратите внимание, что в этом примере не использовались какие-либо сложные “схемы отбеливания монет” или специализированные инструменты; это была простая последовательная пересылка средств на собственные новые адреса. Этот процесс может быть очень просто автоматизирован и предоставлялся, например в виде сервиса под названием Ricochet командой кошелька Samourai.
 
