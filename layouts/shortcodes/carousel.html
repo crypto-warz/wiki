@@ -1,9 +1,3 @@
-{{ if not (.Page.Scratch.Get "carousel-resources-loaded") }}
-<link rel="stylesheet" href="{{ "/css/carousel.css" | relURL }}">
-<script src="{{ "/js/carousel.js" | relURL }}"></script>
-{{ .Page.Scratch.Set "carousel-resources-loaded" true }}
-{{ end }}
-
 <div class="custom-carousel">
   <div class="carousel-images">
     {{ range .Params }}
@@ -12,6 +6,6 @@
       </div>
     {{ end }}
   </div>
-  <button class="carousel-button prev" onclick="moveCarousel(this.parentNode, -1)">❮</button>
-  <button class="carousel-button next" onclick="moveCarousel(this.parentNode, 1)">❯</button>
+  <button class="carousel-button prev">❮</button>
+  <button class="carousel-button next">❯</button>
 </div>

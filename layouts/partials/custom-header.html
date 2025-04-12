@@ -1,3 +1,7 @@
 <head>
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    {{ if .HasShortcode "carousel" }}
+        <link rel="stylesheet" href="{{ "css/carousel.css" | relURL }}">
+        <script src="{{ "js/carousel.js" | relURL }}" defer></script>
+    {{ end }}
 </head>
