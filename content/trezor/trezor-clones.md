@@ -193,3 +193,14 @@ DIY-проект по запуску модифицированной проши
 	"img/trezor/trezor-clones-4.webp"
 	"img/trezor/trezor-clones-1.webp"
 >}}
+
+### Trezor One с портом USB-C (2023)
+
+Модифицированная версия оригинального Trezor One с портом Type-C, другими кнопками и SMD-элементами размером 0603 вместо 0402. Автор – snark013.
+
+[GitHub](https://github.com/snark013/trezor-one).
+
+{{< carousel
+    "img/trezor/trezor-clones-55.webp"
+	"img/trezor/trezor-clones-56.webp"
+>}}
