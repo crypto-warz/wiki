@@ -161,6 +161,7 @@ DIY-проект по запуску модифицированной проши
 	"img/trezor/trezor-clones-16.webp"
 	"img/trezor/trezor-clones-17.webp"
 	"img/trezor/trezor-clones-18.webp"
+	"img/trezor/trezor-clones-57.webp"
 	"img/trezor/trezor-clones-19.webp"
 	"img/trezor/trezor-clones-20.webp"
 	"img/trezor/trezor-clones-28.webp"
