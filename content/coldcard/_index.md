@@ -3,4 +3,4 @@ title: ColdCard
 weight: 3
 ---
 
-- [Эмулятор ColdCard](coldcard/coldcard-emu)
+- [Эмулятор ColdCard MK4](coldcard/coldcard-emu)

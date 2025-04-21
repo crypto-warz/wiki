@@ -51,6 +51,10 @@ h3 {
     line-height: 1.2;
 }
 
+h4 {
+    font-size: 20px;
+}
+
 .highlight pre {
   overflow-x: auto !important;
   white-space: pre !important;

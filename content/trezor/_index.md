@@ -10,3 +10,5 @@ weight: 1
 - [Проверка подлинности Trezor One](trezor/trezor-one-check)
 - [Извлечение сид-фразы из Trezor](trezor/extract-seed)
 - [Клоны и форки Trezor](trezor/trezor-clones)
+- [Автоматическая проверка подлинности в Trezor Suite](trezor/trezor-suite-checks)
+

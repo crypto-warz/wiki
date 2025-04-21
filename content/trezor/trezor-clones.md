@@ -50,7 +50,7 @@ Trezor – пионеры на рынке аппаратных кошелько�
 
 DIY-проект по созданию устройств Trezor One и Trezor T на отладочных платах для разработчиков. Автор – mcudev.
 
-[Сайт](https://mcudev.github.io/), [GitHub](https://github.com/mcudev/mcudev.github.io), [WalletScrutiny](https://walletscrutiny.com/hardware/mcudev.trezor.diy.devkit/).
+[Сайт](https://mcudev.github.io/), [GitHub](https://github.com/mcudev/mcudev.github.io), [видео от Crypto Guide](https://www.youtube.com/watch?v=d4TYYHiM8y8), [WalletScrutiny](https://walletscrutiny.com/hardware/mcudev.trezor.diy.devkit/).
 
 {{< carousel
     "img/trezor/trezor-clones-53.webp"
@@ -131,6 +131,17 @@ DIY-проект по запуску модифицированной проши
 	"img/trezor/trezor-clones-52.webp"
 >}}
 
+### Trezor DIY
+
+Реплика Trezor One своими руками. Автор – VoltLog.
+
+[Сайт](https://www.voltlog.com/voltlog-154-making-my-own-trezor-crypto-hardware-wallet/), [YouTube](https://www.youtube.com/watch?v=mZmv4wG6_PE).
+
+{{< carousel
+    "img/trezor/trezor-clones-60.webp"
+	"img/trezor/trezor-clones-61.webp"
+>}}
+
 ### Corazon (2019)
 
 Клон Trezor T,  родом из Сингапура. Представляет собой обычный Trezor T в алюминиевом или титановом корпусе и, по утверждению производителя, создан в коллаборации с Trezor.
@@ -204,4 +215,15 @@ DIY-проект по запуску модифицированной проши
 {{< carousel
     "img/trezor/trezor-clones-55.webp"
 	"img/trezor/trezor-clones-56.webp"
+>}}
+
+### KeepKey DIY (2024)
+
+DIY-проект по созданию устройства KeepKey на отладочных платах для разработчиков. Автор – Crypto Guide.
+
+[GitHub](https://github.com/3rdIteration/keepkey-diy), [YouTube](https://www.youtube.com/watch?v=athvFw5eypA).
+
+{{< carousel
+    "img/trezor/trezor-clones-58.webp"
+	"img/trezor/trezor-clones-59.webp"
 >}}
