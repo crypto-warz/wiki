@@ -124,7 +124,7 @@ DIY-проект по запуску модифицированной проши
 
 Порт игры в Pong для Trezor One. Автор – Syscall 7.
 
-[Сайт](https://syscall7.com/hacking-a-hardware-wallet/), [GitHub](https://github.com/syscall7/trezor-pong).
+[Сайт](https://syscall7.com/hacking-a-hardware-wallet/), [GitHub](https://github.com/syscall7/trezor-pong), [инструкция по сборке прошивки](trezor/trezor-one-fw-build).
 
 {{< carousel
     "img/trezor/trezor-clones-51.webp"

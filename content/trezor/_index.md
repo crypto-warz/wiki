@@ -11,4 +11,4 @@ weight: 1
 - [Извлечение сид-фразы из Trezor](trezor/extract-seed)
 - [Клоны и форки Trezor](trezor/trezor-clones)
 - [Автоматическая проверка подлинности в Trezor Suite](trezor/trezor-suite-checks)
-
+- [Сборка прошивки Trezor One из исходного кода](trezor/trezor-one-fw-build)
