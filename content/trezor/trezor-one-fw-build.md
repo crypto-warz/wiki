@@ -15,7 +15,7 @@ date: 2025-04-23
 ## Зависимости
 
 ```bash
-sudo apt install git gcc-arm-none-eabi python3-poetry libsdl2-dev libsdl2-image-dev protobuf-compiler
+sudo apt install git gcc-arm-none-eabi python3-poetry python3-pip libsdl2-dev libsdl2-image-dev protobuf-compiler
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 python3 -m pip install trezor
@@ -111,6 +111,7 @@ poetry run ./script/cibuild
 trezorctl device reboot-to-bootloader
 # Подтвердите действие на устройстве
 trezorctl device wipe --bootloader
+# Переподключите устройство
 ```
 
 Другой способ войти в режим загрузчика: зажать левую клавишу на Trezor и подключить кабель питания.

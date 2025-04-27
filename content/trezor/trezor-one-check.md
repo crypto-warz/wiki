@@ -105,7 +105,14 @@ Firmware fingerprint: f7c60d0b8c2853afd576867c6562aba5ea52bdc2ce34d0dbb8751f5286
 Embedded v2 image fingerprint: 35399198fa0a3204b5db82c84b276435fa13a99a38aac0667b6b5fd9af99cae6
 ```
 
-Сравните полученное значение **Firmware fingerprint** с оригинальным по [ссылке](https://github.com/trezor/data/blob/c5c7d63af17c2bb9154674704c828048bbe303f3/firmware/t1b1/releases.json):
+> Вы также можете скачать нужную прошивку с помощью trezorctl. В этом случае файл прошивки будет загружен с сервера Trezor.
+> ```bash
+> trezorctl firmware download --model 1 --version 1.11.1
+> # версия Bitcoin Only
+> trezorctl firmware download --model 1 --version 1.11.1 --bitcoin-only
+> ```
+
+Сравните полученное значение **Firmware fingerprint** с оригинальным по [ссылке](https://github.com/trezor/data/blob/c5c7d63af17c2bb9154674704c828048bbe303f3/firmware/t1b1/releases.json) (или альтернативной [ссылке](https://data.trezor.io/firmware/t1b1/releases.json) на сервере Trezor):
 
 {{% image src="img/trezor/trezor-one-check-3.webp" /%}}
 
@@ -314,7 +321,7 @@ trezorctl firmware get-hash d8538f6498279b4a85db4a25763e138166f36ffcdd079d775bfc
 rm trezor-t1b1-1.12.1.bin
 ```
 
-## Дополнительная проверка
+## Проверка функции кодовой фразы
 
 Вредоносная прошивка, по аналогии с подделками Trezor T, наверняка не будет правильно работать с кодовой фразой. Порядок проверки:
 

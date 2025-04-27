@@ -12,3 +12,4 @@ weight: 1
 - [Клоны и форки Trezor](trezor/trezor-clones)
 - [Автоматическая проверка подлинности в Trezor Suite](trezor/trezor-suite-checks)
 - [Сборка прошивки Trezor One из исходного кода](trezor/trezor-one-fw-build)
+- [Воспроизводимая сборка прошивки Trezor One](trezor/reproducible-build)
