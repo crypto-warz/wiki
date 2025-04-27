@@ -155,6 +155,51 @@ sha256sum build/legacy-T1B1/firmware/firmware.bin
 cf72859c0995e04e09ea36eefaca28906e99dffa7b72fb1327410de4006cbd6c  build/legacy-T1B1/firmware/firmware.bin
 ```
 
+Также можно считать подписи из оригинала и записать в скомпилированную прошивку, тем самым получив оригинальный файл:
+
+```bash
+rm -f trezor-t1b1-1.13.0.bin
+trezorctl firmware download --model T1B1 --version 1.13.0
+dd if=trezor-t1b1-1.13.0.bin bs=1 skip=544 count=195 | dd of=build/legacy-T1B1/firmware/firmware.bin bs=1 seek=544 conv=notrunc
+```
+
+```
+195+0 records in  
+195+0 records out  
+195 bytes copied, 0,00124924 s, 156 kB/s  
+195+0 records in  
+195+0 records out  
+195 bytes copied, 0,0016341 s, 119 kB/s
+```
+
+Сверим хэш-суммы и верифицируем созданную прошивку:
+
+```bash
+sha256sum trezor-t1b1-1.13.0.bin
+```
+
+```
+a5f51f64c0ad8dac888ed5a1c5e6b64271b382b6ed73cfe6a569cfb874cd4545  trezor-t1b1-1.13.0.bin
+```
+
+```bash
+sha256sum build/legacy-T1B1/firmware/firmware.bin
+```
+
+```
+a5f51f64c0ad8dac888ed5a1c5e6b64271b382b6ed73cfe6a569cfb874cd4545  build/legacy-T1B1/firmware/firmware.bin
+```
+
+```bash
+trezorctl firmware verify build/legacy-T1B1/firmware/firmware.bin
+```
+
+```
+Trezor One v2 firmware (1.8.0 or later)  
+Firmware version 1.13.0 build 0  
+Firmware fingerprint: 356433bd9de6cb564bf7778fc5de73c56197459523358f267e9235af9e1ce46d
+```
+
 ### Core
 
 Скачайте, распространяемую разработчиками, версию прошивки:
