@@ -30,6 +30,7 @@ git clone https://github.com/KeystoneHQ/keystone3-firmware ~/keystone3-firmware
 cd ~/keystone3-firmware
 git -c submodule.keystone3-firmware-release.update=none submodule update --init --recursive
 pip3 install -r requirements.txt
+nano CMakeLists.txt
 ```
 
 Замените [строку](https://github.com/KeystoneHQ/keystone3-firmware/blob/69cc978cc6b3579294e10d489594fd753d34431b/CMakeLists.txt#L380):
@@ -43,6 +44,8 @@ pip3 install -r requirements.txt
 ```
       target_link_libraries(${PROJECT_NAME} PRIVATE m dl pthread xcb )
 ```
+
+Последовательно нажмите _Ctrl+X_, _Y_ и _Enter_ для сохранения изменений и выхода из редактора nano.
 
 ```bash
 python3 build.py -o simulator
