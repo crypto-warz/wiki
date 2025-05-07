@@ -17,6 +17,7 @@ date: 2025-04-23
 ```bash
 sudo apt install git gcc-arm-none-eabi python3-poetry python3-pip libsdl2-dev libsdl2-image-dev protobuf-compiler
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+echo 'export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring' >> ~/.bashrc
 source ~/.bashrc
 python3 -m pip install trezor
 ```
@@ -25,7 +26,7 @@ python3 -m pip install trezor
 
 ```bash
 git clone --recurse-submodules https://github.com/trezor/trezor-firmware ~/trezor-firmware
-cd trezor-firmware/
+cd ~/trezor-firmware/
 ```
 
 На этом этапе необходимо определить, какую версию прошивки вы хотите собрать самостоятельно. Обратите внимание, что установить версию прошивки ниже, чем текущая версия **загрузчика**, находящегося на устройстве, не получится. Узнать текущую версию загрузчика можно с помощью следующих команд:
@@ -228,3 +229,24 @@ trezorctl firmware update -f firmware/trezor.bin
 	"img/trezor/trezor-one-fw-build-5.webp"
 	"img/trezor/trezor-one-fw-build-6.webp"
 >}}
+
+## Обновление gcc
+
+Для сборки последних версий прошивки требуется обновление **gcc**:
+
+```bash
+cd
+wget https://developer.arm.com/-/media/Files/downloads/gnu/13.2.rel1/binrel/arm-gnu-toolchain-13.2.rel1-x86_64-arm-none-eabi.tar.xz
+tar -xvf arm-gnu-toolchain-13.2.rel1-x86_64-arm-none-eabi.tar.xz
+sudo mv arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/ /opt/arm-gnu-toolchain-13/
+echo 'export PATH=/opt/arm-gnu-toolchain-13/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+rm arm-gnu-toolchain-13.2.rel1-x86_64-arm-none-eabi.tar.xz
+```
+
+Для переключения репозитория прошивки на последнюю версию выполните:
+
+```bash
+cd ~/trezor-firmware/
+git checkout main
+```

@@ -13,3 +13,4 @@ weight: 1
 - [Автоматическая проверка подлинности в Trezor Suite](trezor/trezor-suite-checks)
 - [Сборка прошивки Trezor One из исходного кода](trezor/trezor-one-fw-build)
 - [Воспроизводимая сборка прошивок Trezor](trezor/trezor-reproducible-build)
+- [Утилита trezorctl](trezor/trezorctl)
