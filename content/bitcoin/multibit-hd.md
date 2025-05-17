@@ -1,6 +1,6 @@
 ---
 title: Восстановление кошелька MultiBit HD
-weight: 3
+weight: 4
 date: 2025-04-07
 ---
 

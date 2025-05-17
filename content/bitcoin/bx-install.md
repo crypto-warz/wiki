@@ -1,6 +1,6 @@
 ---
 title: Установка утилиты Bitcoin eXplorer (BX)
-weight: 4
+weight: 5
 date: 2025-04-07
 ---
 

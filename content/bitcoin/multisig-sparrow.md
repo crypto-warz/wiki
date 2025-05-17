@@ -1,6 +1,6 @@
 ---
 title: Кошелек с несколькими подписями с помощью Sparrow Wallet
-weight: 1
+weight: 2
 date: 2025-03-26
 ---
 
