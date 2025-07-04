@@ -9,3 +9,4 @@ weight: 6
 - [Использование SimpleX](privacy/simplex-setup)
 - [Понимание приватности в сети Биткоин](privacy/utxo-privacy-basics)
 - [Ускользни от Паноптикума и покупай биткоин на Bisq Easy!](privacy/bisq-easy)
+- [Как KYC и AML разрушают мир](kyc-aml-destroying-world)
